@@ -29,7 +29,7 @@ nixosConfigurations = {
    specialArgs = { inherit system; };
 
    modules = [
-    /etc/nixos/configuration.nix
+    ./nixos/configuration.nix
    ];
  };
 };
