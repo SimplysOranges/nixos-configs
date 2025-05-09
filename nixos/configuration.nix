@@ -111,7 +111,6 @@
   pkgs.home-manager
   libreoffice
   pkgs.gnomeExtensions.lockscreen-extension
-  gnome.gnome-tweaks
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
