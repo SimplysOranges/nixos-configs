@@ -107,7 +107,7 @@
   discord
   btop
   neofetch
-  pkgs.gnomeExtensions.blur-my-shell
+  gnomeExtensions.blur-my-shell
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
