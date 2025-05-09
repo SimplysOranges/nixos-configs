@@ -109,7 +109,7 @@
   neofetch
   pkgs.gnomeExtensions.blur-my-shell
   pkgs.home-manager
-  pkgs.libreoffice.qt6-fresh
+  libreoffice
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
