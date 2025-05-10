@@ -111,6 +111,7 @@
   pkgs.home-manager
   libreoffice
   pkgs.gnomeExtensions.lockscreen-extension
+  steam
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
