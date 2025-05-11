@@ -112,6 +112,7 @@
   libreoffice
   pkgs.gnomeExtensions.lockscreen-extension
   steam
+  wofi
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
