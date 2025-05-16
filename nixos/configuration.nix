@@ -113,6 +113,7 @@
   pkgs.gnomeExtensions.lockscreen-extension
   steam
   wofi
+  pkgs.gnomeExtensions.wallpaper-slideshow
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
