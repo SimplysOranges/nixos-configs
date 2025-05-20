@@ -36,7 +36,17 @@ nixosConfigurations = {
        boot.loader.efi.canTouchEfiVariables = true;
 
        programs.steam.enable = true;
-       
+
+       hardware.opengl = {
+	enable = true;
+	driSupport = true;
+	driSupport32Bit = true;
+       };
+
+       programs.gamemode.enable = true;
+       programs.mangohud.enable = true;
+
+
 
        })
 
