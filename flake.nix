@@ -30,6 +30,15 @@ nixosConfigurations = {
 
    modules = [
     ./nixos/configuration.nix
+    
+    ({ ... }: {
+       services.fwupd.enable = true;
+       boot.loader.efi.canTouchEfiVariables = true;
+       })
+
+
+
+
    ];
  };
 };
