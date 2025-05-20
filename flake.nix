@@ -44,9 +44,6 @@ nixosConfigurations = {
        };
 
        programs.gamemode.enable = true;
-       programs.mangohud.enable = true;
-
-
 
        })
 
