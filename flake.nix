@@ -34,6 +34,10 @@ nixosConfigurations = {
     ({ ... }: {
        services.fwupd.enable = true;
        boot.loader.efi.canTouchEfiVariables = true;
+
+       programs.steam.enable = true;
+       
+
        })
 
 
