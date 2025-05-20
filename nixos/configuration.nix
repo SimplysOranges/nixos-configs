@@ -114,6 +114,9 @@
   steam
   wofi
   pkgs.gnomeExtensions.wallpaper-slideshow
+  modrinth-app
+  temurin-jre-bin-17
+  ferium
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
