@@ -117,6 +117,7 @@
   modrinth-app
   temurin-jre-bin-17
   ferium
+  pkgs.nodejs_23
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
